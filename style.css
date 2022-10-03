@@ -1,0 +1,113 @@
+body {
+    background-color: darkcyan;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    height: 400px;
+    background-image: url('images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    color: darkblue;
+    text-align: right;
+    padding: 15px;
+}
+
+.nav {
+    padding: 15px;
+    background-color: lightslategray;
+}
+
+.nav a {
+    color: whitesmoke;
+    background-color: brown;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    color: brown;
+    background-color: whitesmoke;
+}
+
+.card {
+    width: 200px;
+    height: 225px;
+    display: inline-block;
+    margin: 5px 5px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.card img {
+    width: 200px;
+    height: 125px;
+}
+
+.card h4 {
+    color: darkblue;
+}
+
+.card p {
+    color: yellow;
+}
+
+.price {
+    color: whitesmoke;
+} 
+
+hr {
+    border: 4px solid brown;
+
+}
+
+.footer {
+    background-color: lightslategray;
+    padding: 5px;
+    color: white;
+}
+
+/* Recipe Page */
+
+.content h1 {
+    color: darkblue;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.recipe-card {
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    overflow: auto;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.recipe-card ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    background: #04293A;
+    border-radius: 15px;
+}
